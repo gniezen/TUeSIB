@@ -1,8 +1,0 @@
-@prefix lm: <http://jena.hpl.hp.com/2004/08/location-mapping#> .
-
-[] lm:mapping
-[ lm:name "http://sofia.gotdns.com/ontologies/BondingDevice.owl" ; lm:altName "file:/home/gerrit/code/TBCFreeWorkspace/ontologies/BondingDevice5.owl"  ] ,
-  [ lm:name "http://sofia.gotdns.com/ontologies/SemanticConnections.owl" ; lm:altName "file:/home/gerrit/code/TBCFreeWorkspace/ontologies/SemanticConnections.owl"  ] ,
-  [ lm:name "http://sofia.gotdns.com/ontologies/SemanticInteraction.owl" ; lm:altName "file:/home/gerrit/code/TBCFreeWorkspace/ontologies/SemanticInteraction.owl"  ] ,
-  [ lm:name "http://sofia.gotdns.com/ontologies/cleanup.owl" ; lm:altName "file:/home/gerrit/code/TBCFreeWorkspace/ontologies/cleanup.owl"  ] ,
-  [ lm:name "http://sofia.gotdns.com/ontologies/semint-functions"        ; lm:altName "file:/home/gerrit/code/TBCFreeWorkspace/ontologies/semint-functions.spin.rdf"  ] .

@@ -134,13 +134,14 @@ public class SemanticModel {
 		
 		/*Added by Gerrit*/
 		//Set up local location for ontologies while developing
-		LocationMapper lm= new LocationMapper("location-mapping.ttl");
+	/*	LocationMapper lm= new LocationMapper("location-mapping.ttl");
 		LocationMapper.setGlobalLocationMapper(lm);
-		FileManager.get().setLocationMapper(lm);
+		FileManager.get().setLocationMapper(lm); */
 		
 		// Load domain model with imports
 		logger.debug("Loading domain ontology...");
-		model = loadModelWithImports("/home/gerrit/code/TBCFreeWorkspace/ontologies/InteractionEvents.owl","http://sofia.gotdns.com/ontologies/InteractionEvents.owl");
+		model = loadModelWithImports("https://raw.github.com/gniezen/ontologies/master/InteractionEvents.owl");
+		//model = loadModelWithImports("/home/gerrit/code/TBCFreeWorkspace/ontologies/InteractionEvents.owl","http://sofia.gotdns.com/ontologies/InteractionEvents.owl");
 		//model = loadModelWithImports("/home/gerrit/code/TBCFreeWorkspace/ontologies/BondingDevice5.owl","http://sofia.gotdns.com/ontologies/BondingDevice.owl");
 		//model = loadModelWithImports("http://sofia.gotdns.com/ontologies/BondingDevice.owl");
 		
