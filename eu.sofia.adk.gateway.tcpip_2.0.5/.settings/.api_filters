@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="eu.sofia.adk.gateway.tcpip" version="2">
+    <resource path="src/eu/sofia/adk/gateway/tcpip/core/ClientConnectionSupport.java" type="eu.sofia.adk.gateway.tcpip.core.ClientConnectionSupport">
+        <filter id="576720909">
+            <message_arguments>
+                <message_argument value="ListenerSupport&lt;E&gt;"/>
+                <message_argument value="ClientConnectionSupport"/>
+            </message_arguments>
+        </filter>
+    </resource>
+</component>
